@@ -12,10 +12,10 @@
 1. Berikan contoh kode keneksi untuk ke database pd php?
 - $connect = mysqli_connect($host, $uname, $pass, $db);
 2. Bagaimana cara anda membuat database pada phpMySQl!
--$result = mysqli_query($connect,$query);
+- $result = mysqli_query($connect,$query);
 3. Berikan code query untuk menampilkan sebuah data yang ada pada ke database?
--"SELECT * FROM dosen WHERE id_dosen = $id_dosen";
+- "SELECT * FROM dosen WHERE id_dosen = $id_dosen";
 4. Berikan code query untuk mengupdate sebuah data yang ada pada ke database?
--$query = "UPDATE dosen SET nama_dosen = '$nama_dosen', telp = '$telp' WHERE id_dosen = $id_dosen";
+- $query = "UPDATE dosen SET nama_dosen = '$nama_dosen', telp = '$telp' WHERE id_dosen = $id_dosen";
 5. Berikan code query untuk menghapus sebuah data yang ada pada ke database?
--$query = "DELETE FROM dosen WHERE id_dosen = $id_dosen";
+- $query = "DELETE FROM dosen WHERE id_dosen = $id_dosen";
